@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  /* background: url('./images/backgrounds/cf.jpg');
+  background-size: 30%;
+  background-repeat: repeat;
+  background-position: center center; */
+  background-color: orange;
+  display: flex;
+  width:auto;
+  height:auto;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.innerWrapper{
+  background-color: white;
+  width:50vw;
+  border-radius: 25px;
+  font-family: montserrat;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  padding:20px;
+}
+h1{
+  text-align: center;
+}
+
+form input{
+  padding:10px;
+  font-size: 4rem;
+  width:6rem;
+  border-radius: 15px;
+  margin-right:10px;
+
+}
+
+.calculator {
+max-width: 80%;
+}
+
+.calculator form div{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  font-size: 4rem;
+}
+
+.premix-result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+}
+
+.premix-result p{
+  font-size: 2rem;
+}
+
+
