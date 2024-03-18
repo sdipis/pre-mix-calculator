@@ -29,7 +29,7 @@ code {
 
 .innerWrapper{
   background-color: white;
-  width:50vw;
+  width:40vw;
   border-radius: 25px;
   font-family: montserrat;
   text-transform: uppercase;
@@ -71,8 +71,23 @@ max-width: 80%;
   padding:20px;
 }
 
+.premix-result span{
+  color:red;
+  font-weight: 600;
+}
+.premix-result span2{
+  color:blue;
+  font-weight: 600;
+}
+
 .premix-result p{
   font-size: 2rem;
 }
 
 
+
+@media only screen and (max-width: 900px) {
+.innerWrapper{
+  width:100%;
+}
+}

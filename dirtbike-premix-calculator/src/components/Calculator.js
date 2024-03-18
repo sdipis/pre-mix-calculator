@@ -41,7 +41,7 @@ function Calculator() {
       {/* This is a condition render statement. !=='' && is checking if premix is empty or not. */}
       {premix !== '' ? (
   <div className="premix-result">
-    <p>Add {premix.toFixed(0)} ml of premix to {gas} litres of gas</p>
+    <p>Add <span>{premix.toFixed(0)} ML of premix</span> to <span2>{gas} litres of gas</span2></p>
   </div>
 ) : (
   <div className="premix-result">
